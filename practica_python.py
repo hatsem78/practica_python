@@ -1,7 +1,10 @@
+
 import operator
 import random
 from collections import defaultdict
 import os
+
+'''
 all_words = "all the words in the world".split()
 
 def get_random_word():
@@ -27,7 +30,8 @@ def unique_word2():
 
     for _ in range(1000):
         words.add(get_random_word())
-    return  words
+    return words
+
 print(unique_word())
 print()
 print(unique_word2())
@@ -61,8 +65,8 @@ print(student_grades)
 
 home = str(os.path.expanduser('~octavio'))
 print(home)
-
-data = [
+'''
+data = (
 ('betty', 1),
 ('bought', 1),
 ('a', 1),
@@ -72,8 +76,13 @@ data = [
 ('but', 1),
 ('the', 1),
 ('was', 1),
-('bitter', 1)]
+('bitter', 1))
 
 sorted_x = sorted(data, key=operator.itemgetter(1))
 
 print(sorted_x)
+
+home = str(os.path.expanduser('~octavio'))
+print(home)
+
+
